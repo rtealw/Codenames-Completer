@@ -18,7 +18,7 @@ class MatchingKeys extends Component {
     this.getMatchingKeyComponents = this.getMatchingKeyComponents.bind(this);
   }
 
-  getMatchingKeyComponent(matchingKey, keyLength, isOdd) {
+  getMatchingKeyComponent(matchingKey, keyLength) {
     const { dimension, stageLength, colors, borderWidth } = this.props;
     return (
       <Key
@@ -30,7 +30,7 @@ class MatchingKeys extends Component {
             ? colors[1]
             : colors[2]
         }
-        changeColor={(row, col) => {}}
+        changeColor={() => {}}
         colors={colors}
         borderWidth={borderWidth}
       />

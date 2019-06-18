@@ -73,8 +73,9 @@ class App extends Component {
       if (currentKey[i].length !== possibleMatch[i].length) return false;
       for (let j = 0; j < currentKey[i].length; j++) {
         const currentID = currentKey[i][j].colorID;
-        if (currentID !== 4 && currentID !== possibleMatch[i][j].colorID)
+        if (currentID !== 4 && currentID !== possibleMatch[i][j].colorID) {
           return false;
+        }
       }
     }
     return true;
