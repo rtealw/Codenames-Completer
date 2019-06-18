@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/rtealw/Codenames-Completer.svg?branch=master)]
+![Build Status](https://travis-ci.com/rtealw/Codenames-Completer.svg?branch=master)
 
 ## Introduction
 Codenames Completer is a web app identifier for key cards in the original version of the board game Codenames.
