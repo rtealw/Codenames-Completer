@@ -1,0 +1,62 @@
+{
+  "name": "codenames-completer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "konva": "^3.3.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-konva": "^16.8.7-2",
+    "react-scripts": "2.1.5",
+    "reactstrap": "^8.0.0",
+    "styled-components": "^4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint ."
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "husky": "^1.3.1",
+    "jest-enzyme": "^7.0.1",
+    "jest-styled-components": "^6.3.1",
+    "lint-staged": "^8.1.4",
+    "prettier": "^1.16.4",
+    "react-test-renderer": "^16.8.1"
+  },
+  "contributors": [
+    "R. Teal Witter <rtealwitter@gmail.com>"
+  ],
+  "license": "Apache-2.0",
+  "engines": {
+    "node": "10.15.x"
+  },
+  "cacheDirectories": [
+    "node_modules"
+  ]
+}
